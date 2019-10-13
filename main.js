@@ -122,7 +122,7 @@ function getMonitors(apikey, args) {
     'format': 'json'
   }, args));
 
-  return fetch('http://uptime.7wc.men/v2/getMonitors', {
+  return fetch('https://uptimerobot-mirrors.i6u8.cn/v2/getMonitors', {
     method: 'POST',
     body: params,
     cache: 'no-cache',
